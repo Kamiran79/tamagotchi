@@ -38,6 +38,7 @@ This is a javascript vesion.
 1. to start see the home page, on the terminal type: `npm start`
 
 ### Contributors:
+* [Kamiran Ibrahim](https://github.com/Kamiran79)
 
 ### Stretch Goals
 Here are some possible stretch goals. Feel free to try any that interest you or make up your own.
