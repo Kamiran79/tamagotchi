@@ -8,7 +8,7 @@ In case you lived under a rock in the 90s a Tamagotchi was the first "digital vi
 
 This is a javascript vesion.
 
-### Technical Used:
+## Technical Used:
 * npm.
 * JS file comprised of functions.
 * ES6 modules.
@@ -17,7 +17,7 @@ This is a javascript vesion.
 * Font Awesome.
 * HTML5.
 
-### Feature List:
+## Feature List:
 * Landing page divided to 5 sections:
 
     1. Main section show the progress if any changeds to the activities.
@@ -28,20 +28,20 @@ This is a javascript vesion.
         * Eat, Sleep, play, and Fight.
         * There are two buttons for each activity.
     
-### Screenshots:
+## Screenshots:
 **Home Page - Landing page**
 
 ![Home Page](https://github.com/Kamiran79/tamagotchi/blob/master/screenshots/Screen%20Shot%202020-06-14%20at%209.31.03%20PM.png)
 
-### How To Run:
+## How To Run:
 1. clone down this repo.
 1. Install npm. `npm install`
 1. to start see the home page, on the terminal type: `npm start`
 
-### Contributors:
+## Contributors:
 * [Kamiran Ibrahim](https://github.com/Kamiran79)
 
-### Stretch Goals
+## Stretch Goals
 Here are some possible stretch goals. Feel free to try any that interest you or make up your own.
 #### Pit Picture
 Your pet deserves a picture. Write a domStringBuilder that puts it in the div with an id of pet. Make the styling look super cool.
