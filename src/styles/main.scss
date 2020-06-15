@@ -1,4 +1,4 @@
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 @import 'styles';
@@ -6,5 +6,204 @@
 
 body {
     background-color: $slytherin;
-    @include default-font(40px);
+    @include default-font(15px);    
 }
+
+html, body { height: 100%; padding: 10px; margin: 10px; text-align: center; }
+div { width: 50%; height: 50%; float: left; }
+#progress {
+    width: 100%; height: 30%; float: left; background: black;
+}
+
+
+#mainProgress {
+  width: 100%;
+  background-color: #111;
+  padding: 10px;
+  height: 40px;
+}
+  
+#barProgress {
+  width: 1%;
+  height: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: green;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.progress-bar {
+    position: relative;
+    width: 310px;
+    height: 3em;
+    background-color: #111;
+    border-radius: 1.5em;
+    color: white;
+}
+
+
+#eat { background: $greenery; }
+#play { background: $livingCoral; }
+#fight { background: $mimosa; }
+#sleep { background: $ravenclaw; }
+
+.quad h3{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;    
+}
+
+.quad h5{
+    font-size: 15px;    
+    color: black;    
+}
+
+.quad button {
+    border-radius: 3px;
+    background-color: $lightgray;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.quad button:hover {
+    background-color: greenyellow;
+}
+
+
+/*
+
+#eat1 {
+  position: absolute;
+  top: 8px;
+  left: 16px;  
+  color: brown;
+  border-radius: 20px;
+}
+
+#play1 {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: brown;
+    border-radius: 20px;
+  }
+
+#sleep1 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: brown;
+    border-radius: 20px;
+}
+
+#fight1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: brown;
+    border-radius: 20px;
+}
+
+
+#app {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.name1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.healthScore {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.btn2 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+}
+
+.squareEat {
+    position: relative;
+    text-align: center;
+    color: white;
+    border: 1px solid #DDDDDD;
+    height: 450px;
+    width: 300px;
+    margin: 10px;
+    padding: 0px;
+    transition: border-radius 1s, background-color 1s;
+    background-color: $greenery;
+    border-radius: 5px;    
+}
+
+.squarePlay {
+    position: relative;
+    text-align: center;
+    color: white;
+    border: 1px solid #DDDDDD;
+    height: 450px;
+    width: 300px;
+    margin: 10px;
+    padding: 0px;
+    transition: border-radius 1s, background-color 1s;
+    background-color: #FF6F61;
+    border-radius: 5px;    
+}
+
+.squareMain {
+    height: 200px;
+    width: 200px;
+    background-color: $white;
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white; */
+    /* added from pet-addoption css*/
+/*    
+    border: 1px solid #DDDDDD;
+    height: 450px;
+    width: 300px;
+    margin: 10px;
+    padding: 0px;
+    transition: border-radius 1s, background-color 1s;
+    background-color: red;
+    border-radius: 5px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+*/

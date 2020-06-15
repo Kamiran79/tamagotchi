@@ -1,5 +1,14 @@
 @mixin default-font($fontsize) {
     color: white;
     font-size: $fontsize;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+@mixin quad-color($color: getColor) {
+    @if ($color == eat) {
+        color: red;
+    }
+    @if ($color == sleep) {
+        color: blue;
+    }
 }
