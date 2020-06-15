@@ -30,6 +30,7 @@ This is a javascript vesion.
     
 ### Screenshots:
 **Home Page - Landing page**
+
 ![Home Page](https://github.com/Kamiran79/tamagotchi/blob/master/screenshots/Screen%20Shot%202020-06-14%20at%209.31.03%20PM.png)
 
 ### How To Run:
