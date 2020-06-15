@@ -20,7 +20,7 @@ This is a javascript vesion.
 ### Feature List:
 * Landing page divided to 5 sections:
 
-    1. Main section show the progress.
+    1. Main section show the progress if any changeds to the activities.
     1. Four quadrants for activities.
     1. Those for activities have a different background color.
     1. The four activities are:
